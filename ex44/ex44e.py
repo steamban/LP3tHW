@@ -9,7 +9,7 @@ class Other(object):
         print("OTHER altered()")
 
 
-class Child(Parent):
+class Child(object):
     def __init__(self):
         self.other = Other()
 
